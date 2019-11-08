@@ -97,7 +97,7 @@ The individual requirement is given in `scope`.
       - `3` 3D simulation box
       - ...
 
-  - `bounday`
+  - `boundary`
     - type: array of *(string)* containing **D** elements, where **D** is the value of `dimension`.
     - scope: *required*, if `box` sub-group exists
     - description: the boundary condition of the box along each dimension. The allowed values in `boundary` are either **periodic** or **none**.
